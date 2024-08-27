@@ -12,7 +12,7 @@ title                    : "Dongyang Chen's Self Portrait"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://github.com/alexchans/alexchans.github.io
+url                      : https://alexchans.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 

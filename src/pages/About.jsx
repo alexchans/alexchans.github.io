@@ -9,23 +9,23 @@ export default function About() {
           <h1>About Me</h1>
         </div>
         <p className="about-bio">
-          Senior Computer Science student from{' '}
+          Ph.D. student in Theoretical and Computational Chemistry at{' '}
           <a href="https://www.smu.edu/" target="_blank" rel="noopener noreferrer">
             Southern Methodist University
           </a>
-          , starting PhD in Spring 2025. Research focuses on{' '}
-          <span className="highlight">AI</span> and{' '}
-          <span className="highlight">Healthcare</span>.
+          , specializing in protein prediction and trajectory generation
+          via geometric graph neural networks and diffusion-based models.
         </p>
       </section>
 
       <section className="about-interests card">
         <h2>Research Interests</h2>
         <div className="interest-tags">
-          <span className="badge">Artificial Intelligence</span>
-          <span className="badge">Healthcare</span>
           <span className="badge">Machine Learning</span>
-          <span className="badge">Computer Science</span>
+          <span className="badge">Graph Neural Network</span>
+          <span className="badge">Diffusion Model</span>
+          <span className="badge">Protein Allosteric Site Prediction</span>
+          <span className="badge">Protein Trajectory Generation</span>
         </div>
       </section>
 

@@ -1,4 +1,5 @@
 import './Sidebar.css';
+import avatarImg from '../assets/AlexChen.png';
 
 const socialLinks = [
   {
@@ -54,7 +55,7 @@ export default function Sidebar() {
       <div className="sidebar-card card">
         <div className="sidebar-avatar-wrap">
           <img
-            src="/images/AlexChen.png"
+            src={avatarImg}
             alt="Dongyang Chen"
             className="sidebar-avatar"
           />
@@ -64,7 +65,7 @@ export default function Sidebar() {
         </div>
 
         <h2 className="sidebar-name">Dongyang Chen</h2>
-        <p className="sidebar-role">Incoming PhD Student</p>
+        <p className="sidebar-role">Ph.D. Student in TCC</p>
         <p className="sidebar-affiliation">Southern Methodist University</p>
 
         <div className="sidebar-location">

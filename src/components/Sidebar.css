@@ -115,6 +115,13 @@
   opacity: 1;
 }
 
+.sidebar-contact {
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
 /* Responsive: sidebar collapses to horizontal on mobile */
 @media (max-width: 768px) {
   .sidebar {

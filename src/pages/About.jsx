@@ -29,23 +29,26 @@ export default function About() {
         </div>
       </section>
 
-      <section className="about-resume card">
-        <h2>Resume</h2>
-        <p>
-          Download my latest resume for a comprehensive overview of my academic
-          background and experience.
-        </p>
-        <a
-          href="/files/Alex Chen's resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="resume-btn"
-        >
-          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
-            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
-          </svg>
-          Download Resume
-        </a>
+      <section className="about-education card">
+        <h2>Education</h2>
+        <div className="education-entries">
+          <div className="education-entry">
+            <div className="education-header">
+              <h3>Southern Methodist University, Dallas, TX</h3>
+              <span className="education-date">Jan. 2026 — May 2030</span>
+            </div>
+            <p className="education-degree">Ph.D. in Theoretical Computational Chemistry</p>
+            <p className="education-detail">GPA: 4.0/4.0</p>
+          </div>
+          <div className="education-entry">
+            <div className="education-header">
+              <h3>Southern Methodist University, Dallas, TX</h3>
+              <span className="education-date">Aug. 2022 — Dec. 2024</span>
+            </div>
+            <p className="education-degree">Bachelor of Science: Computer Science — Artificial Intelligence and Machine Learning Track</p>
+            <p className="education-detail">GPA: 3.87/4.0</p>
+          </div>
+        </div>
       </section>
     </div>
   );

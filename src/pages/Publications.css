@@ -17,33 +17,24 @@
   font-size: 0.95rem;
 }
 
-.publications-empty {
+.publication-item {
   animation: fadeUp 0.5s ease 0.1s both;
 }
 
-.empty-state {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 3rem 1rem;
-  text-align: center;
-}
-
-.empty-icon {
-  color: var(--text-muted);
-  margin-bottom: 1.25rem;
-  opacity: 0.5;
-}
-
-.empty-title {
-  font-size: 1.15rem;
+.pub-title {
+  font-size: 1rem;
   font-weight: 600;
-  color: var(--text-primary);
-  margin-bottom: 0.4rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
 }
 
-.empty-description {
+.pub-authors {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.pub-venue {
+  font-size: 0.85rem;
   color: var(--text-muted);
-  font-size: 0.9rem;
-  max-width: 360px;
 }

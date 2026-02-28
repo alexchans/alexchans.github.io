@@ -38,15 +38,6 @@ const socialLinks = [
       </svg>
     ),
   },
-  {
-    label: 'Email',
-    url: 'mailto:alexchen@smu.edu',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
-        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-      </svg>
-    ),
-  },
 ];
 
 export default function Sidebar() {
@@ -75,6 +66,11 @@ export default function Sidebar() {
           <span>Dallas, TX</span>
         </div>
 
+        <div className="sidebar-contact">
+          <p>(469)-588-4979</p>
+          <p>alexchen@smu.edu</p>
+        </div>
+
         <div className="sidebar-divider" />
 
         <div className="sidebar-links">
@@ -82,8 +78,7 @@ export default function Sidebar() {
             <a
               key={link.label}
               href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
+              {...(link.url.startsWith('mailto:') ? {} : { target: '_blank', rel: 'noopener noreferrer' })}
               className="sidebar-link"
               aria-label={link.label}
               title={link.label}

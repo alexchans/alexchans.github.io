@@ -64,35 +64,53 @@
   gap: 0.5rem;
 }
 
-.about-resume {
+.about-education {
   animation: fadeUp 0.5s ease 0.2s both;
 }
-.about-resume h2 {
+.about-education h2 {
   font-size: 1.2rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 1rem;
   color: var(--text-primary);
 }
-.about-resume p {
-  color: var(--text-secondary);
-  font-size: 0.92rem;
-  margin-bottom: 1.2rem;
+
+.education-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
 }
 
-.resume-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.7rem 1.4rem;
-  border-radius: var(--radius-sm);
-  background: var(--accent);
-  color: #fff !important;
-  font-weight: 600;
-  font-size: 0.9rem;
-  transition: all var(--transition-fast);
-  box-shadow: 0 4px 16px var(--accent-glow);
+.education-entry {
+  padding-left: 1rem;
+  border-left: 2px solid var(--border-accent);
 }
-.resume-btn:hover {
-  background: var(--accent-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 24px var(--accent-glow);
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.education-header h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.education-date {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.education-degree {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin-top: 0.2rem;
+}
+
+.education-detail {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
 }

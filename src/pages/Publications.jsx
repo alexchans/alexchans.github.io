@@ -18,16 +18,22 @@ export default function Publications() {
         </p>
       </section>
 
-      <section className="publications-empty card">
-        <div className="empty-state">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="48" height="48" className="empty-icon">
-            <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z" />
-          </svg>
-          <p className="empty-title">Publications coming soon</p>
-          <p className="empty-description">
-            Check back later or visit my Google Scholar for the latest updates.
-          </p>
-        </div>
+      <section className="publication-item card">
+        <h3 className="pub-title">
+          <a
+            href="https://pubs.acs.org/doi/abs/10.1021/acs.jctc.5c01579"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Efficient Sampling of Short Protein Trajectories with Conditional Diffusion Models
+          </a>
+        </h3>
+        <p className="pub-authors">
+          Chuanye Xiong, Dongyang Chen, et al.
+        </p>
+        <p className="pub-venue">
+          <em>Journal of Chemical Theory and Computation</em> · January 2, 2026
+        </p>
       </section>
     </div>
   );

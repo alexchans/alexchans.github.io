@@ -59,7 +59,7 @@
 
 .sidebar-role {
   font-size: 0.9rem;
-  color: var(--accent);
+  color: var(--text-secondary);
   font-weight: 500;
   margin-bottom: 0.15rem;
 }
@@ -120,6 +120,7 @@
   font-size: 0.82rem;
   color: var(--text-secondary);
   line-height: 1.6;
+
 }
 
 /* Responsive: sidebar collapses to horizontal on mobile */

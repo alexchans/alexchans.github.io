@@ -21,4 +21,5 @@ Output goes to `dist/`.
 
 ## Deployment
 
-Deployed via GitHub Pages. Push to `main` to trigger a build.
+Deployed via GitHub Pages. Push to `master` to trigger a build.
+
